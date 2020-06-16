@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: cloud-config-server
+
+cloud:
+  config:
+    server:
+      git:
+        uri:git@github.com:kenshin579/config-repository
