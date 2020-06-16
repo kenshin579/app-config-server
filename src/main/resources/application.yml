@@ -8,5 +8,4 @@ spring:
 cloud:
   config:
     server:
-      git:
-        uri:git@github.com:kenshin579/config-repository
+      git: https://github.com/kenshin579/config-repository.git
